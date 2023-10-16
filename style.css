@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'acww';
+    src: url('Animal-Crossing-Wild-World.ttf') format('truetype');
+ }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+    font-family: 'acww', 'Arial';
+    color: #ffffff;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 238, 255);
+}
+  
+/* visited link */
+a:visited {
+    color: rgb(234, 0, 255);
+}
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(255, 190, 94);
+}
+  
+  /* selected link */
+a:active {
+    color: rgb(252, 255, 94);
+}
+
+@media screen and (max-width: 639px){
+    body {
+        font-size: 36px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(255, 174, 0);
+    }
+    
+    h2 {
+        text-align: center;
+        color: rgb(18, 163, 79);
+    }
+
+    .chapter {
+        text-align: center;
+    }
+
+    .text {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .jpeg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 90%;
+    }
+
+    .gifkirb {
+        width:60px;
+        height:40px;
+    }
+
+    .gifpop {
+        width:310px;
+        height:232px;
+    }
+    
+    .containervid {
+        margin:auto;
+        position: relative;
+        width: 90%;
+        padding-top: 50%;
+    }
+    
+    .projectvid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tableindex {
+        display:none;
+        margin-left: -6.5%;
+        position:absolute;
+        width: 3.25em;
+        height: 8em;
+        background-color: black;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 640px) and (max-width: 1023px)){
+    body {
+        font-size: 36px;
+        margin-left: 8%;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(255, 174, 0);
+    }
+    
+    h2 {
+        text-align: center;
+        color: rgb(18, 163, 79);
+    }
+
+    .chapter {
+        text-align: center;
+    }
+
+    .text {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .jpeg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 70%;
+    }
+
+    .gifkirb {
+        width:60px;
+        height:40px;
+    }
+
+    .gifpop {
+        width:310px;
+        height:232px;
+    }
+    
+    .containervid {
+        margin:auto;
+        position: relative;
+        width: 70%;
+        padding-top: 40%;
+    }
+    
+    .projectvid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tableindex {
+        margin-left: -6.5%;
+        position:fixed;
+        width: 3.25em;
+        height: 8em;
+        background-color: black;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 24px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(255, 174, 0);
+    }
+    
+    h2 {
+        margin-left: 16%;
+        color: rgb(18, 163, 79);
+    }
+
+    .chapter {
+        text-align: center;
+    }
+
+    .text {
+        margin-left: 17%;
+        margin-right: 20%;
+    }
+    
+    .jpeg {
+        margin-left: 17%;
+        width:33.3%;
+        height:33.3%;
+    }
+
+    .gifkirb {
+        width:30px;
+        height:20px;
+    }
+
+    .gifpop {
+        width:155px;
+        height:116px;
+    }
+    
+    .containervid {
+        margin-left: 17%;
+        position: relative;
+        width: 33.3%;
+        padding-top: 19%;
+    }
+    
+    .projectvid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tableindex {
+        margin-left: 2%;
+        position:fixed;
+        width: 5em;
+        height: 7em;
+        background-color: black;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+}
+

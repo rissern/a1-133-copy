@@ -7,41 +7,47 @@ EMAIL: rissern@uci.edu
 -->
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <meta name="author" content="Noah Risser">
   <meta name="description" content="INF-133 Assignment 1">
    <!-- you would link to an external stylesheet here! -->
+   <link rel="stylesheet" href="style.css">
    <!-- you would also link to Bootstrap here! -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
   <title>Noah's Portfolio</title>
 </head>
 <body>
   <header>
-    <h1>Welcome to Noah's Portfolio!<img src="sleepcycle2.gif" alt="Kirby sleeping" style="width:30px;height:20px"></h1>
+    <h1>Welcome to Noah's Portfolio!<img class="gifkirb" src="sleepcycle2.gif" alt="Kirby sleeping"></h1>
   </header>
+  <div class="tableindex">
+    <p class="chapter"><a href="#who">Who am I?</a></p>
+    <p class="chapter"><a href="#past">Past Projects</a></p>
+    <p class="chapter"><a href="#future">Future Projects</a></p>
+  </div>
   <article>
-    <h2>Who am I?</h2>
-    <p>
-      I am a senior sudying Computer Science at UC Irvine in Southern California.
+    <h2 id="who">Who am I?</h2>
+    <p class="text">
+      I am a senior studying Computer Science at UC Irvine in Southern California (graduating Spring 2024).
       I am specializing in articifical intelligence and hope to use my acquired skills
       to become a successful and important part of the tech workforce after I graduate.
       My hobbies include competing in gaming tournaments, programming, and spending time with
       my girlfriend.
     </p>
-    <p>
-      Scroll further down below to view some the projects I have completed as hobbies.
+    <p class="text">
+      Scroll further down below to view some of the projects I have completed as hobbies.
       While I have completed a multitude of small programming projects for various classes
       throughout my time at college, I feel these projects do a better job of representing
       my interests.
     </p>
   </article>
   <article>
-    <h2>Past Projects</h2>
-    <p>
-      <iframe width="640" height="480" src="https://www.youtube.com/embed/Q28hK5AwhUk">
-      </iframe>
-    </p>
-    <p>
+    <h2 id="past">Past Projects</h2>
+    <div class="containervid">
+      <iframe class="projectvid" src="https://www.youtube.com/embed/Q28hK5AwhUk"></iframe>
+    </div>
+    <p class="text">
       Check out more of my <abbr title="Super Smash Bros. Melee">SSBM</abbr> modifications on
       <a href="https://ssbmtextures.com/author/mooshies/">
         SSBM Textures.
@@ -49,8 +55,8 @@ EMAIL: rissern@uci.edu
     </p>
   </article>
   <article>
-    <h2>Future Projects</h2>
-    <p>
+    <h2 id="future">Future Projects</h2>
+    <p class="text">
       I don't want to give away too many details about my future projects,
       but I will say I have two planned.
       One involves creating a helpful Google Chrome extension involving YouTube
@@ -61,16 +67,16 @@ EMAIL: rissern@uci.edu
       music, and much more. View the images below for a sneak peak.
     </p>
     <p>
-      <img src="ss1.jpg" alt="Future project sneakpeak 1" style="width:619px;height:508px">
+      <img class="jpeg" src="ss1.jpg" alt="Future project sneakpeak 1">
     </p>
     <p>
-      <img src="ss2.jpg" alt="Future project sneakpeak 2" style="width:619px;height:508px">
+      <img class="jpeg" src="ss2.jpg" alt="Future project sneakpeak 2">
     </p>
   </article>
   <footer>
-    <p>Author: Noah Risser</p>
-    <p><a href="mailto:rissern@uci.edu">rissern@uci.edu</a></p>
-    <p><img src="seppukufinishedflipped.gif" alt="Poppy Bros. Jr. blowing himself up" style="width:155px;height:116px"></p>
+    <p class="foot">Author: Noah Risser</p>
+    <p class="foot"><a href="mailto:rissern@uci.edu">rissern@uci.edu</a></p>
+    <p class="foot"><img class="gifpop" src="seppukufinishedflipped.gif" alt="Poppy Bros. Jr. blowing himself up"></p>
   </footer>
 </body>
 </html>
